@@ -59,7 +59,7 @@ int main()
 	if (sum / ctmp)
 		cout << sum / ctmp << " ";
 	if (sum%ctmp)
-		cout  << sum % ctmp / GMD(sum, ctmp) << "/" << ctmp / GMD(sum, ctmp);
+		cout << sum % ctmp / GMD(sum, ctmp) << "/" << ctmp / GMD(sum, ctmp);
 	if (sum / ctmp == 0 && sum%ctmp == 0)
 		cout << "0" << endl;
 	return 0;
